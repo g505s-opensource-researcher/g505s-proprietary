@@ -1,0 +1,15 @@
+FD size: 4096k
+FV00 size: 52k
+FV00 freespace: 11k
+FV01 size: 2936k
+FV01 freespace: 1356k
+FV02(NvStorage) size: 200k
+FV02(NvStorage) freespace: 193k
+FV03 size: 612k
+FV03 freespace: 69k
+Compiler Version: 1500 (VC 9.0)
+
+FV00 => Start address 0x33000 ,Size : 0xd000 bytes
+FV01 => Start address 0x43000 ,Size : 0x2de000 bytes
+FV02 => Start address 0x333000 ,Size : 0x32000 bytes
+FV03 => Start address 0x367000 ,Size : 0x99000 bytes

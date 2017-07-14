@@ -1,0 +1,15 @@
+
+Archive: winflash(3.00).exe
+Size: 9 950 462
+Packed Size: 3 079 883
+Folders: 0 , Files: 11
+CRC: E0945B18
+-----------------------------
+Type: 7z
+Error Type: PE
+Offset: 421576
+Physical Size: 3 080 312
+Headers Size: 429
+Method: LZMA:12m BCJ
+Solid: +
+Blocks: 2

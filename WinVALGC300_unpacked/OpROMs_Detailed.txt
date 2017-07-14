@@ -1,0 +1,221 @@
+[01]
+8DFAE5D4-B50E-4C10-96E6-F2C266CACBB6 (VID=1002, DID=9901)
+for Trinity [Radeon HD 7660D] - integrated GPU found at A10-5800K desktop APU
+
+*** IMPORTANT NOTE 1 :
+
+This OpROM could be used for HD 8650G integrated GPU of A10-5750M laptop APU,
+which has "(VID=1002, DID=990b)" identifiers and found at G505S laptop,
+but ONLY after the proprietary UEFI/BIOS patches it to correct "DID" and
+fills a lot of its' variables / data structures with compatible values.
+
+If you will try to use it AS-IS unpatched - your backlight will not work.
+Get the good working Video BIOS ROMs from g505s-atombios repository!
+
+=== 01 OpROM human readable ASCII header:
+IBMS 761295520 01/16/13,13:48:38
+113-DVST-113.DVST.PCI_EXPRESS.DDR3
+113-DVST-113 DVST DDR3 200e/
+(C) 1988-2010, Advanced Micro Devices, Inc.
+ATOMBIOSBK-AMD VER015.031.000.000.000000.TrinityGener.865166.1.252756
+AMD_Generic\config.h
+
+@@@ Suitable for A10-5750M integrated HD 8650G GPU, filename:  pci1002,990b.rom
+
+[02]
+80D670AA-0DA8-4097-96CD-735610806F3C (VID=1002, DID=6843)
+1st, for Thames [Radeon HD 7670M ; HD 6570] -
+- discrete GPU of laptops (HD 7670M) and desktops (HD 6570)
+
+=== 02 OpROM human readable ASCII header:
+IBM" 761295520 04/16/12,06:33:47
+BR42970.001.THAMES.PCI_EXPRESS.GDDR5
+Lenovo Y485 Thames-XTX GDDR5 64Mx16/900MHz PX
+(C) 1988-2010, AMD Technologies Inc.
+ATOMBIOSBK-ATI VER013.012.000.041.042970.BR42970.001 .761026  .224270
+Compal_Lenovo_Y485_Thames_XTX_GDDR5_1G_PX\config.h
+
+[03]
+6E00F405-29E6-48A6-B1CE-B4123B61FE9B (VID=1002, DID=6843)
+2nd, for Thames [Radeon HD 7670M ; HD 6570] -
+- discrete GPU of laptops (HD 7670M) and desktops (HD 6570)
+
+=== 03 OpROM human readable ASCII header:
+IBMq 761295520 04/20/12,07:36:31
+BR43024.001.THAMES.PCI_EXPRESS.GDDR5
+Lenovo Y485 Thames-XTX GDDR5 128Mx16/900MHz PX
+(C) 1988-2010, AMD Technologies Inc.
+ATOMBIOSBK-ATI VER013.012.000.041.043024.BR43024.001 .763361  .224940
+Compal_Lenovo_Y485_Thames_XTX_GDDR5_PX\config.h
+
+[04]
+9186644E-AAEC-44E9-9F8A-488B4611DB60 (VID=1002, DID=6600)
+for Mars [Radeon HD 8670A; HD 8670M/8700M/8750M, R7 M370 ; HD 8600] -
+- discrete GPU of laptops (MXM module HD 8670A; HD 8670M/8700M/8750M, R7 M370)
+and desktops (HD 8600)
+
+=== 04 OpROM human readable ASCII header:
+IBM  761295520 04/15/13,04:16:32
+BR44415.003.MARS.PCI_EXPRESS.DDR3
+Lenovo G405/G505 Mars-XT M2 DDR3 PX
+(C) 1988-2010, Advanced Micro Devices, Inc.
+ATOMBIOSBK-AMD VER015.031.000.001.044415.BR44415.003 .879176  .259877
+COMPAL_LENOVO_MARS_XTM2_G405S_DDR3_PX\config.h
+
+[05]
+72D389CF-C8DD-496E-8BD7-6114CF002ABA (VID=1002, DID=6760)
+for Seymour [Radeon HD 6400M/7400M Series] - discrete GPU found at laptops
+
+=== 05 OpROM human readable ASCII header:
+IBM  761295520 06/26/12,07:09:45
+BR43356.001.SEYMOUR.PCI_EXPRESS.DDR3
+Lenovo S405/VAUSS SEYMOUR-XT DDR3/900MHz
+(C) 1988-2010, AMD Technologies Inc.
+ATOMBIOSBK-ATI VER013.012.000.041.043356.BR43356.001 .785858  .231673
+Compal_Lenovo_S405_Seymour_XT_DDR3_900\config.h
+
+[06]
+F215D0AE-4ABA-4886-8EF2-9C59F2F69B1D (VID=1002, DID=6663)
+1st, for Sun PRO [Radeon HD 8570A; HD 8570M] -
+- discrete GPU found at laptops (MXM module HD 8570A; HD 8570M)
+
+*** IMPORTANT NOTE 2 :
+
+This OpROM could be used for HD 8570M discrete GPU
+which has "(VID=1002, DID=6663)" identifiers and found at G505S laptop,
+but ONLY after the proprietary UEFI/BIOS patches it and
+fills a lot of its' variables / data structures with compatible values.
+
+If you will try to use it AS-IS unpatched - you may encounter the bugs.
+Get the good working Video BIOS ROMs from g505s-atombios repository!
+
+=== 06 OpROM human readable ASCII header:
+IBM` 761295520 06/24/13,02:40:33
+BR44464.011.SUN.PCI_EXPRESS.DDR3
+Lenovo G405s/G505s SUN-Pro DDR3 PX/Richland
+(C) 1988-2010, Advanced Micro Devices, Inc.
+ATOMBIOSBK-AMD VER015.032.000.000.044464.BR44464.011 .884561  .264908
+COMPAL_LENOVO_SUN_PRO_G405S_DDR3_RICHLAND\config.h
+
+@@@ Suitable for G505S with HD 8570M discrete GPU, filename:   pci1002,6663.rom
+
+[07]
+94D97532-A945-4CA3-B3B8-ACA2CFF79089 (VID=1002, DID=6660)
+for Sun XT [Radeon HD 8670A; HD 8670M/8690M, R5 M330/M430] -
+- discrete GPU of laptops (MXM module HD 8670A; HD 8670M/8690M, R5 M330/M430)
+
+=== 07 OpROM human readable ASCII header:
+IBMR 761295520 06/13/13,03:44:20
+BR44464.010.SUN.PCI_EXPRESS.DDR3
+Lenovo G405s/G505s SUN-Pro DDR3 PX/Richland
+(C) 1988-2010, Advanced Micro Devices, Inc.
+ATOMBIOSBK-AMD VER015.032.000.000.044464.BR44464.010 .884561  .264223
+COMPAL_LENOVO_SUN_PRO_G405S_DDR3_RICHLAND\config.h
+
+@@@ This 07 OpROM is 06's older version. 07 is unused even by proprietary BIOS
+
+[08]
+ADE8E3F5-6A26-411B-AE49-4DCCEEA1E4BA (VID=1002, DID=6663)
+2nd, for Sun PRO [Radeon HD 8570A; HD 8570M] -
+- discrete GPU found at laptops (MXM module HD 8570A; HD 8570M)
+
+*** IMPORTANT NOTE 3 :
+
+It seems that "(VID=1002, DID=6663)" (which is from Sun PRO family) is a BIOS
+mistake, because OpROM human readable ASCII header - printed below - tells that
+this OpROM is for Jet GPU family (R5 M230, R5 M255, R5 M420, R5 M430, R7 M435)
+
+Judging by their list and the availability of GPUs at the modifications of
+G405s/G505s laptop models, most likely it should be "(VID=1002, DID=6665)" -
+- which stands for R5 M230 discrete GPU found in certain G405s/G505s versions
+
+^^^ UPDATE :
+
+This OpROM could be used for R5 M230 discrete GPU
+which has "(VID=1002, DID=6665)" identifiers and found at G505S laptop,
+but ONLY after the proprietary UEFI/BIOS patches it to correct "DID" and
+fills a lot of its' variables / data structures with compatible values.
+
+If you will try to use it AS-IS unpatched - you may encounter the bugs.
+Get the good working Video BIOS ROMs from g505s-atombios repository!
+
+=== 08 OpROM human readable ASCII header:
+IBM‚ 761295520 11/28/13,01:19:25
+BR45149.002.JET.PCI_EXPRESS.DDR3
+Lenovo G405s/G505s Jet DDR3 PX/Richland
+(C) 1988-2010, Advanced Micro Devices, Inc.
+ATOMBIOSBK-AMD VER015.041.000.000.045149.BR45149.002 .981492  .279018
+COMPAL_LENOVO_JET_G405S_DDR3_RICHLAND\config.h
+
+@@@ Suitable for G505S with R5 M230 discrete GPU, filename:    pci1002,6665.rom
+
+[09]
+17EE70E8-7809-44BC-96C4-1433451563F5 (VID=1969, DID=2060)
+for Qualcomm Atheros AR8152/8158 Fast Ethernet - PCIE network controller
+
+=== 09 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.0 (build 083) Atheros Boot Agent
+For Atheros PCIE Ethernet Controller v2.0.4.8(01/27/11) (build 083)
+$LANROM$ $LANMAC$
+
+[10]
+D83E35C3-6437-4CF4-B5A9-E9AC399BE108 (VID=1969, DID=1091)
+for Qualcomm Atheros AR8161/8165 Gigabit Ethernet - PCIE network controller
+
+=== 10 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.0 (build 083) Atheros Boot Agent
+For Atheros PCIE Ethernet Controller v2.1.0.9(08/12/11) (build 083)
+$LANROM$ $LANMAC$
+
+[11]
+D94C03F7-BCAD-4C40-811E-86EA51296F4C (VID=10EC, DID=8136)
+for Realtek RTL8101/8102/8106E Fast Ethernet - PCIE network controller
+
+=== 11 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.1 (build 083)
+This Product is covered by one or more of the following patents:
+US5,307,459, US5,434,872, US5,732,094, US6,570,884, US6,115,776 and US6,327,625
+Realtek PCIe FE Family Controller Series v1.27 (10/31/11)
+Realtek PXE B00 D00
+
+[12]
+5159AD6A-7C43-4747-86F3-A4C4B45113D2 (VID=10EC, DID=8168)
+for Realtek RTL8111/8168/8411 Gigabit Ethernet - PCIE network controller
+
+=== 12 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.1 (build 083)
+This Product is covered by one or more of the following patents:
+US5,307,459, US5,434,872, US5,732,094, US6,570,884, US6,115,776 and US6,327,625
+Realtek PCIe GBE Family Controller Series v2.51 (10/08/12)
+Realtek PXE B00 D00
+
+[13]
+828E73B7-74D5-4829-93AD-4E2BC0207FE5 (VID=1969, DID=10A0)
+for Qualcomm Atheros AR8172/8176/8178 Fast Ethernet - PCIE network controller
+
+=== 13 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.0 (build 083) Atheros Boot Agent
+For Atheros PCIE Ethernet Controller v2.1.1.2(09/06/12) (build 083)
+$LANROM$ $LANMAC$
+
+[14]
+C5840E6D-8CAD-491E-B8BF-F531B0996DA2 (VID=1969, DID=1090)
+for Qualcomm Atheros AR8162/8166/8168 Fast Ethernet - PCIE network controller
+
+=== 14 OpROM human readable ASCII header:
+Copyright (C) 1997-2000  Intel Corporation
+Intel Corporation Intel UNDI, PXE-2.0 (build 083) Atheros Boot Agent
+For Atheros PCIE Ethernet Controller v2.1.1.2(09/06/12) (build 083)
+$LANROM$ $LANMAC$
+
+[15]
+52948E6F-137E-4ADC-BBB7-D17DC0AD9EC4 (VID=1002, DID=4391)
+for SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode] - integrated to southbridge
+
+=== 15 OpROM human readable ASCII footer:
+AMD AHCI ROM 2012 Ver 3.1.2.0
